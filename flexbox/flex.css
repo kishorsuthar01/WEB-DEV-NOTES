@@ -1,0 +1,32 @@
+#container{
+    background-color: pink;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  height: 600px;
+  display: flex;
+ flex-wrap: wrap;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 4px;padding: 4px;
+
+}
+#item1{
+background-color: aquamarine;
+/* order: 2; */
+align-self: center;
+}
+#item2{
+   background-color: blue;
+  align-self:stretch;
+}
+#item3{
+background-color: brown;
+}
+#item4{
+background-color: rgb(84, 154, 47);
+}
